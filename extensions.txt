@@ -60,4 +60,3 @@ visualstudioexptteam.intellicode-api-usage-examples
 visualstudioexptteam.vscodeintellicode
 wholroyd.jinja
 zainchen.json
-                        
