@@ -1,23 +1,32 @@
 {
   // editor
+  "window.titleBarStyle": "native",
   "editor.wordWrap": "on",
   "editor.fontSize": 18,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.lineHeight": 30,
+  "editor.lineHeight": 1.8,
   "editor.tabSize": 2,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "breadcrumbs.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "workbench.statusBar.visible": false,
+  "explorer.fileNesting.enabled": true,
 
   // explorer
   "explorer.compactFolders": false,
   // workbench
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Omni",
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -27,12 +36,28 @@
   "prettier.semi": false,
 
   // terminal
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 21,
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "Courier New",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.shellIntegration.enabled": false,
   "workbench.commandPalette.experimental.suggestCommands": false,
   "terminal.integrated.commandsToSkipShell": [],
-  "terminal.integrated.cursorStyle": "line"
+  "terminal.integrated.cursorStyle": "line",
+  "workbench.colorCustomizations": {},
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/var/folders/83/_cm3ck7j7v95n5yvcl3j739c0000gn/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/83/_cm3ck7j7v95n5yvcl3j739c0000gn/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/83/_cm3ck7j7v95n5yvcl3j739c0000gn/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/83/_cm3ck7j7v95n5yvcl3j739c0000gn/T/postman-folder-pre-request.instructions.md": true,
+    "/var/folders/83/_cm3ck7j7v95n5yvcl3j739c0000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/83/_cm3ck7j7v95n5yvcl3j739c0000gn/T/postman-http-request-pre-request.instructions.md": true
+  },
+  "workbench.colorTheme": "Omni",
+  "files.autoSave": "afterDelay",
+  "workbench.startupEditor": "none",
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false
 }
