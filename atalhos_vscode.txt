@@ -1,0 +1,40 @@
+cmd + b = esconde a barra lateral (esquerda)
+cmd + p = abrir arquivos mais rápido
+cmd + s = salvar o arquivo
+cmd + shif + m = abrir / fechar debugger 
+cmd k + cmd t = mudar temas
+cmd + , = entrar no Editor
+cmd + shif + x  = menu extensões
+cmd + shif + t = abre o settings.json
+crtl + shift + ` = terminal
+cmd k + z = modo zen
+cmd + \ = abre duas abas uma do lado da outra
+cmd + click = vai para o arquivo clicado (import ou links)
+cmd + w = fecha uma janela
+cmd + shift + p = Preferências
+ctrl + tab = passar entre varias abas abertas
+cmd + n = novo arquivo em branco
+cmd + o = 
+cmd + shift + t = reabre o último arquivo que foi aberto
+
+==========================================================
+Edição de arquivos:
+editar varias linhas: Segura o alt(option no mac) em varias linhas, clica e digita
+editar pela palavra-chave: Ctrl + Shift + L
+cmd + d = encontrar as proximas palavras
+selecionar coluna = shift + option e editar
+mover linhas = option + seta pra baixo ou pra cima
+Ir para uma linha determinada: CTRL + g = :10 exemplo
+CRTL + U = volta o cursor para onde estava
+cmd + z = desfazer (undo)
+shift + cmd + z = refazer (redo)
+cmd k + cmd x = remove espaços desnecessários da seleção
+cmd + x = deleta uma linha
+cmd + / = comentário, independentemente da linguagem
+tab = identa para frente | shift + tab = identa para trás
+Shift + Option + F = IDENTAÇÃO
+
+* Deixar Auto-save habilitado *
+1000 ms
+
+code . "dentro da pasta do projeto"
